@@ -12,8 +12,7 @@ var ractive = new Ractive({
 
 document.getElementById( 'count1' ).addEventListener( 'click', function () {
 	var temp = document.getElementById( 'barNumber' ).value;
-	document.getElementById("bar1").style.backgroundColor='red';
-  if(ractive.get( 'progress'+temp ) - 25 >= 0){
+	if(ractive.get( 'progress'+temp ) - 25 >= 0){
 	  ractive.set( 'progress'+temp, ractive.get( 'progress'+temp ) - 25 );
   }
   else{
