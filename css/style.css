@@ -1,0 +1,16 @@
+.progress-bar {
+  position: relative;
+  width: 200px;
+  height: 20px;
+  border: 1px solid black;
+}
+.progress-bar-fill {
+  height: inherit;
+  background-color: orange;
+}
+.progress-label {
+  position: relative;
+  top: 3px;
+  left: 5px;
+  color: #000;
+}
